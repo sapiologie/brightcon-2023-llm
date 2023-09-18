@@ -4,7 +4,8 @@ Jupyter notebook of the presentation at Brightcon 2023 on LLMs applied to LCAs
 
 Setup:
 
-- Create a `.env` file at the root with `OPENAI_API_KEY=<your key>`
+- You need an `OPENAI_API_KEY`, so grab one and set it as an environment variable.
+- You need to download ELCD from OpenLCA Nexus, import it in OpenLCA 2, then export as JSON-LD, and put the data under `datasets/elcd/`, where the path to `datasets` should be filled in the notebook under `DSROOT`.
 
 Install and run:
 
